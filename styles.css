@@ -69,3 +69,31 @@ body{
 .nutrition tr:last-child {
   border-bottom: none;
 }
+@media (max-width: 375px) {
+body{
+    background-color: white;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400
+}
+.p{
+    font-size: 16px;
+}
+.box{
+    background-color: hsl(0, 0%, 100%);
+    width: 100%;
+    margin:0;
+    border-radius: 0 ;    
+    padding: 0;
+}
+
+}
+
+@media (max-width: 1024px) and (min-width: 376px) {
+ 
+  .box {
+    width: 80%;        
+    margin: 30px auto; 
+    border-radius: 2%; 
+    padding: 4%;       
+  }
+}
